@@ -5,40 +5,30 @@
         <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+         rel="stylesheet">
         <link rel = "stylesheet" href ="style.css"> 
         <title>Mahmoud Armash</title>
     </head>
     <body>
 
-        <header>
-            <div class="nav-bar">
-              <a href="ana.html" class="logo">Mahmoud</a>
-              <div class="navigation">
-                <div class="nav-items">
-                  <i class="uil uil-times nav-close-btn"></i>
-                  <a href="sehrim.html"><i class="sehrim"></i>Şehrim</a>
-                  <a href="mirasim.html"><i class="mirasim"></i> Mirasim</a>
-                  <a href="cv.html"><i class="cv"></i> CV</a>
-                  <a href="ilgi.html"><i class="ilgi"></i> ilgi alanlar</a>
-                  <a href="hakkinda.html"><i class="hakkinda"></i>Hakkında</a>
-                  <a href="iletisim.html"><i class="iletisim"></i> İletişim</a>
-                </div>
-              </div>
-              <i class="uil uil-apps nav-menu-btn"></i>
-            </div>
-            <div class="scroll-indicator-container">
-              <div class="scroll-indicator-bar"></div>
-            </div>
-          </header>
+      <header>
+        <a href = "ana.html" class ="site" >Mahmoud</a>
+        <nav class ="navigation">
+            <a href = "cv">CV</a>
+            <a href ="sehrim.html">Şehrim</a>
+            <a href = "hakkinda.html" >Hakkında</a>
+            <a href = "iletisim">İletişim</a>
+        </nav>
+    </header>
 
 
         <section class ="main">
             <div>
-                <h2>Hello, I'm Mahmoud <span>Back-Front End Developer </span></h2>
+                <h2>Hello, I'm Mahmoud<br><span>Back-Front End Developer </span></h2>
                 
                 <h3>I build life Changing Courses</h3>
-                <a href = "#projects" class ="main-btn">Giriş yap :)</a>
+                <a href = "login.html" class ="main-btn">Giriş yap :)</a>
                 <div class ="social-icons">
                     <a href = "#"><i class="fa-brands fa-linkedin"></i></a>
                     <a href = "#"><i class="fa-brands fa-twitter"></i></a>
@@ -63,32 +53,6 @@
                 
         </div>
         </footer>
-    
-        <script>
-            //Javacript for the scroll indicator bar
-            window.addEventListener("scroll", () => {
-              const indicatorBar = document.querySelector(".scroll-indicator-bar");
-        
-              const pageScroll = document.body.scrollTop || document.documentElement.scrollTop;
-              const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-              const scrollValue = (pageScroll / height) * 100;
-        
-              indicatorBar.style.width = scrollValue + "%";
-            });
-        
-            //Responsive navigation menu toggle
-            const menuBtn = document.querySelector(".nav-menu-btn");
-            const closeBtn = document.querySelector(".nav-close-btn");
-            const navigation = document.querySelector(".navigation");
-        
-            menuBtn.addEventListener("click", () => {
-              navigation.classList.add("active");
-            });
-        
-            closeBtn.addEventListener("click", () => {
-              navigation.classList.remove("active");
-            });
-          </script>
     </body>    
 
  </html>
