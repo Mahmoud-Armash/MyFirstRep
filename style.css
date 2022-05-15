@@ -32,6 +32,12 @@
     margin-left : 50px;
     transition: 0.4s ease-in-out;
 } 
+
+.navigation a:hover {
+    color : purple;
+    font-size: 1.17em;
+    
+}
  
 section {
     padding : 100px 200px;
@@ -92,6 +98,8 @@ background-attachment: fixed;
     font-size : 1.7em;
     padding-right : 30px;
 }
+
+
 .footer {
     background-color :#000016;
     color : #fff;
@@ -121,9 +129,6 @@ background-attachment: fixed;
 .material-icons{
     size : 100px;
 } 
-
-
-
 
 /*======= Scroll bar =======*/
 ::-webkit-scrollbar{

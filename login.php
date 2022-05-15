@@ -19,7 +19,7 @@ $kullancıAdı = "g201210589@sakarya.edu.tr";
 
     if (($_POST["kullancı"]) == ($kullancıAdı) && ($_POST["şifre"]) == ("g201210589"))
     {
-       echo "HOŞ GELDİNİZ ". substr($kullancıAdı,0,10) ; s
+       echo "HOŞ GELDİNİZ ". substr($kullancıAdı,0,10);
     }
     else 
     {

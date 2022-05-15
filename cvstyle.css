@@ -23,6 +23,33 @@ body {
     font-size: 16px;
 }
 
+header {
+    background-color : #f0f0f0;
+    width : 100%;
+    position : fixed;
+    z-index: 999;
+    display : flex ;
+    justify-content : space-between;
+    align-items : center;
+    padding : 10px 200px;
+} 
+ .site {
+    text-decoration: none;
+    color : #3a6cf4;
+    text-transform: uppercase;
+    font-weight : 700;
+    font-size : 1.8em; 
+    margin-top : 10px;
+} 
+ .navigation a{
+    text-decoration : none ;
+    color : #3a6cf4;
+    font-size: 1.1em;
+    font-weight : 500;
+    margin-left : 50px;
+    transition: 0.4s ease-in-out;
+} 
+
 /* LAYOUT */
 .container {
     position: relative;
@@ -232,4 +259,57 @@ body {
     .hobby li {
         margin-bottom: 1rem;
     }
+}
+.social-icons a {
+    color : white;
+    font-size : 1.7em;
+    padding-right : 30px;
+}
+
+
+.footer {
+    background-color :#000016;
+    color : #fff;
+    padding : 2em;
+    display : flex ;
+    justify-content : space-between;
+
+}
+.footer-title {
+    font-size: 1.0em;
+    font-weight: 600;
+    padding : 0 12px ;
+}
+.footer-title span{
+    color : #3a6cf4;
+}
+.footer .social-icons {
+    font-size :1.3em;
+    padding : 0 12px 0 0;
+}
+.hak-kim{
+    color :rgb(64, 40, 184);
+    font-size: 1.4em;
+    padding : 0 10px 0 0;
+
+}
+.material-icons{
+    size : 100px;
+} 
+
+/*======= Scroll bar =======*/
+::-webkit-scrollbar{
+    background: #fff;
+    width: 11px;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #282f4e;
+    width: 100%;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #454f6d;
 }

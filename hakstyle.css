@@ -15,23 +15,24 @@ header {
     justify-content : space-between;
     align-items : center;
     padding : 10px 200px;
-}
-.logo {
+} 
+ .site {
     text-decoration: none;
     color : #3a6cf4;
     text-transform: uppercase;
     font-weight : 700;
     font-size : 1.8em; 
     margin-top : 10px;
-}
-.navigation a{
+} 
+ .navigation a{
     text-decoration : none ;
     color : #3a6cf4;
     font-size: 1.1em;
     font-weight : 500;
     margin-left : 50px;
     transition: 0.4s ease-in-out;
-}
+} 
+
 .navigation a:hover {
     color : purple;
     font-size: 1.17em;
@@ -196,42 +197,7 @@ transition: 0.5s ease-in-out;
     font-weight: 700;
 
 }
-.tracking-in-expand-fwd {
-	-webkit-animation: tracking-in-expand-fwd 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand-fwd 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-@-webkit-keyframes tracking-in-expand-fwd {
-    0% {
-      letter-spacing: -0.5em;
-      -webkit-transform: translateZ(-700px);
-              transform: translateZ(-700px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
-  }
-  @keyframes tracking-in-expand-fwd {
-    0% {
-      letter-spacing: -0.5em;
-      -webkit-transform: translateZ(-700px);
-              transform: translateZ(-700px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
-  }
+
 .kalistenik{
     
     width:300px;
@@ -290,3 +256,58 @@ transition: 0.5s ease-in-out;
     font-weight: 700;
 
 }
+.social-icons a {
+    color : white;
+    font-size : 1.7em;
+    padding-right : 30px;
+}
+
+
+.footer {
+    background-color :#000016;
+    color : #fff;
+    padding : 2em;
+    display : flex ;
+    justify-content : space-between;
+
+}
+.footer-title {
+    font-size: 1.0em;
+    font-weight: 600;
+    padding : 0 12px ;
+}
+.footer-title span{
+    color : #3a6cf4;
+}
+.footer .social-icons {
+    font-size :1.3em;
+    padding : 0 12px 0 0;
+}
+.hak-kim{
+    color :rgb(64, 40, 184);
+    font-size: 1.4em;
+    padding : 0 10px 0 0;
+
+}
+.material-icons{
+    size : 100px;
+} 
+
+/*======= Scroll bar =======*/
+::-webkit-scrollbar{
+    background: #fff;
+    width: 11px;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #282f4e;
+    width: 100%;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #454f6d;
+}
+
+      
